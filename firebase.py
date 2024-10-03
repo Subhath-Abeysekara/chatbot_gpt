@@ -4,7 +4,7 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import storage
 
-cred = credentials.Certificate("meetingdetecting-eaa8d5acd7c7.json")
+cred = credentials.Certificate("meetingdetecting-8ca48498109c.json")
 firebase_admin.initialize_app(cred)
 count = 0
 def upload_image_to_firebase(image_file):
